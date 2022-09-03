@@ -1,0 +1,158 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 24px;
+}
+
+.header > a{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #36284D;
+}
+
+.backButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.backButton > a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #36284D;
+}
+
+.backButtonIcon {
+    display: flex;
+    align-items: center;
+    color: #737373;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #E3E3E3;
+    border-radius: 50%;
+    padding: 8px 6px 8px 12px;
+}
+
+.backButton:hover >*{
+    color: #7153A1;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.backButton:hover > .backButtonIcon{
+    border: 1px solid #7153A1;
+    transition: 0.3s;
+}
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    margin-bottom: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: #404040;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.link a:hover{
+    color: #7153A1;
+}
+
+.link:active a:active{
+    border-bottom: solid 2px #7153A1;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #E3E3E3;
+    border-radius: 32px;
+}
+
+.avatar > p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #36284D;
+}
+
+.avatarIcon {
+    color: #737373;
+    width: 16px;
+    height: 16px;
+}
+
+.mobileHeader{
+    display: none;
+}
+
+.headerQuestion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 24px;
+}
+
+@media (max-width: 420px){
+    .header{
+        margin: 16px 21px;
+    }
+
+    .avatar{
+        border: none;
+        padding: 0px;
+    }
+
+    .avatar > p {
+        display: none;
+    }
+
+    .avatarIcon{
+        display: none;
+    }
+
+    .tabs{
+        gap: 32px;
+    }
+
+    .mobileHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;  
+        padding: 11px 16px; 
+        background-color: #fff;
+    }
+
+    .mobileHeader > h1{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.5px;
+        color: #222222;
+    }
+
+    .headerQuestion{
+        display: none;
+    }
+
+    .closeIcon{
+        color: #737373;
+    }
+}

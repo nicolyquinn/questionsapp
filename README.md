@@ -1,6 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This application is a Question Dashboard, a place where you can see questions asked by patients to doctors.
 
 ## Getting Started
+
+There are two ways to access this project, the git hub page or the development server.
+
+### To access the Git Hub Page
+
+You just have to click on the link below:
+
+[Here is the link](https://nicolyquinn.github.io/questionsapp)
+
+### To access the Development Server
 
 First, run the development server:
 
@@ -14,21 +24,24 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Here is the list of all the features included on the project:
 
-## Learn More
+- Open and closed questions tabs
+- Mobile Responsiveness
+- Image Zoom
+- Answer question via text
+- Save question and close tab
+- Categories dropdown
+- Loading management
+- UI feedbacks(alerts,validation etc.)
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The technologies used on this project are:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- NextJs
+- Material UI
+- Javascript
+- CSS

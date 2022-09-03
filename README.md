@@ -2,14 +2,6 @@ This application is a Question Dashboard, a place where you can see questions as
 
 ## Getting Started
 
-There are two ways to access this project, the git hub page or the development server.
-
-### To access the Git Hub Page
-
-You just have to click on the link below:
-
-[Here is the link](https://nicolyquinn.github.io/questionsapp)
-
 ### To access the Development Server
 
 First, run the development server:
